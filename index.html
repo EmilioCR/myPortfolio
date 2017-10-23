@@ -9,25 +9,43 @@
   <title>Portfolio</title>
 </head>
 <body>
-	<header><a href="" id="home">Home</a></header>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="">Home</a></li>
+			</ul>
+		</nav>
+	</header>
 	<div class="slider">
 		<ul class="pages">
+
+			
 
 			<li class="page">
 				<div class="portfolio-page">
 					<div class="project-section">
-						<div class="project-info project-poster neurocity-display">
-							<img src="img/neurocity.jpg" alt="">
+						<div class="project-info project-poster">
+							<span class="neurocity-display" id="neurocity-display">
+								<img src="img/neurocity.jpg" alt="">
+							</span>
+							<span class="books-display" id="books-display">
+								<iframe src="https://player.vimeo.com/video/239538876" width="100%" height="50%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							</span>
 						</div>
-						<div class="project-info project-description neurocity-display">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id explicabo ipsum, excepturi. Voluptatibus enim praesentium quos fugit, numquam alias atque, commodi voluptatum dolor, vero maiores quisquam tempora dolore, ut aut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum fugiat veritatis quis, sit quam nobis iste corporis esse reprehenderit quisquam molestiae quas impedit, ex aliquid iusto vitae eveniet neque blanditiis!</p>
+						<div class="project-info project-description">
+							<span class="neurocity-display" id="neurocity-display">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id explicabo ipsum, excepturi. Voluptatibus enim praesentium quos fugit, numquam alias atque, commodi voluptatum dolor, vero maiores quisquam tempora dolore, ut aut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum fugiat veritatis quis, sit quam nobis iste corporis esse reprehenderit quisquam molestiae quas impedit, ex aliquid iusto vitae eveniet neque blanditiis!</p>
+							</span>
+							<span class="books-display" id="books-display">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id explicabo ipsum, excepturi.</p>
+							</span>
 						</div>
 					</div>
 
 					<div class="project-section projects-list">
 						<ul>
-							<li>Neurocity Project</li>
-							<li>Books Project</li>
+							<li id="neurocity-show-display">Neurocity Project</li>
+							<li id="books-show-display">Books Project</li>
 							<li>Bandera Azul</li>
 						</ul>
 					</div>
@@ -36,8 +54,8 @@
 
 			<li class="page">
 				<div class="welcome-site"><h1 class="welcome-title">Hi! I'm Emilio!</h1>
-					<div class="projects"><a href="#portfolio" id="portfolio-section"><h2>Projects</h2></a></div>
-					<div class="about"><a href="#about-page" id="about-section"><h2>About Me</h2></a></div>
+					<div class="projects"><a id="portfolio-section"><h2>Projects</h2></a></div>
+					<div class="about"><a  id="about-section"><h2>About Me</h2></a></div>
 				</div>
 
 			</li>
@@ -71,7 +89,7 @@
 		</ul>
 	</div>
 	
-	<script src="js/jquery.js"></script>
+	<script src="node_modules/jquery/dist/jquery.js"></script>
 	<script src="js/main.js"></script>
 	
 </body>

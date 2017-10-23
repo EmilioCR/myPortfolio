@@ -18,6 +18,7 @@ body {
 
 header {
   position: absolute;
+  z-index: 999;
 }
 
 a {
@@ -50,6 +51,7 @@ img {
 
 .pages {
   width: 400%;
+  margin-left: -100%;
 }
 
 .page {
@@ -153,18 +155,33 @@ img {
   color: #fff;
 }
 
-.project-info img, .project-info p {
-  margin: 70% 5% 0;
+.project-info img, .project-info iframe {
+  margin: 70% 0;
+}
+
+.project-info p {
   font-size: 1.8em;
+  margin: 70% 5% 0;
 }
 
 .project-poster {
   width: 45%;
   vertical-align: top;
+  overflow: hidden;
 }
 
 .project-description {
   width: 54%;
+}
+
+.neurocity-display {
+  display: inline-block;
+  margin: 5px;
+}
+
+.books-display {
+  display: none;
+  margin: 5px;
 }
 
 .projects-list {

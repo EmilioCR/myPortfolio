@@ -15,15 +15,20 @@
 	background-color: #BA183D;
 	color: #fff;
 
-	img, p {
-		margin: 70% 5% 0;
+	img, iframe {
+		margin: 70% 0;
+	}
+	
+	p {
 		font-size: 1.8em;
+		margin: 70% 5% 0;
 	}
 }
 
 .project-poster {
 	width: 45%;
 	vertical-align: top;
+	overflow: hidden;
 }
 
 .project-description {
@@ -31,7 +36,13 @@
 }
 
 .neurocity-display {
+	display: inline-block;
+	margin: 5px;
+}
 
+.books-display {
+	display: none;
+	margin: 5px;
 }
 
 .projects-list {

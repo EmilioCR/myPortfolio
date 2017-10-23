@@ -1,20 +1,32 @@
-(function () {
-	$(".pages").css({
-		'margin-left': "-=100%"
-	});
-    return false;
-})()
+var portfolioSection = $('#portfolio-section');
+var aboutSection = $('#about-section');
 
-$('#about-section').click(function(){
+var booksShow = $('#books-show-display');
+var neurocityShow = $('#neurocity-show-display');
+var neurocityDisplay = $('.neurocity-display');
+var booksDisplay = $('.books-display');
+
+aboutSection.click(function(){
     $(".pages").animate({
 		'margin-left': "-=100%"
 	},1500);
     return false;
 });
 
-$('#portfolio-section').click(function(){
+
+portfolioSection.click(function(){
     $(".pages").animate({
 		'margin-left': "+=100%"
 	},1500);
     return false;
+});
+
+booksShow.click(function(){
+    booksDisplay.toggle();
+    neurocityDisplay.toggle();
+});
+
+neurocityShow.click(function(){
+    neurocityDisplay.toggle();
+    booksDisplay.toggle();
 });
