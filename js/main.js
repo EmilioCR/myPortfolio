@@ -30,7 +30,7 @@ portfolioSection.click(function(){
 // });
 // 
 $(document).ready(function () {
-    var jqxhr = $.getJSON( "../json/data.json", function(data) {
+    var jqxhr = $.getJSON( "json/data.json", function(data) {
         console.log( data.Books );
 
         $( "<img>" ).attr( "src", data.Neurocity.poster).appendTo($('#poster-project-display'));
