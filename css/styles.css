@@ -45,6 +45,11 @@ img {
   height: auto;
 }
 
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
 .slider {
   overflow: hidden;
 }
@@ -144,7 +149,7 @@ img {
 
 .project-section {
   display: inline-block;
-  width: 49vw;
+  width: 59vw;
   height: 100vh;
 }
 
@@ -156,37 +161,40 @@ img {
 }
 
 .project-info img, .project-info iframe {
-  margin: 70% 0;
+  margin: 45% 0;
 }
 
 .project-info p {
   font-size: 1.8em;
-  margin: 70% 5% 0;
+  margin: 80% 5% 0;
 }
 
 .project-poster {
-  width: 45%;
+  width: 54%;
   vertical-align: top;
   overflow: hidden;
 }
 
 .project-description {
-  width: 54%;
+  width: 45%;
 }
 
-.neurocity-display {
+.poster-project-display {
   display: inline-block;
   margin: 5px;
+  width: 100%;
+  height: 50%;
 }
 
-.books-display {
-  display: none;
+.description-project-display {
+  display: inline-block;
   margin: 5px;
 }
 
 .projects-list {
   background-color: #fff;
   vertical-align: top;
+  width: 40vw;
 }
 
 .projects-list ul {
