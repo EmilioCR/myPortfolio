@@ -1,0 +1,52 @@
+.container-contact {
+	margin: 0 auto;
+	text-align: center;
+	background-color: #0faa8c;
+	width: 70%;
+	margin: 15% 15% 0;
+	color: #fff;
+	overflow: auto;
+	position: relative;
+}
+
+.photo-contact img{
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+
+.info-contact {
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	width: 40%;
+	margin: 20px;
+
+	h2 {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+
+	h3 {
+		font-size: 20px;
+		margin: 10px 0;
+	}
+}
+
+.social-logos {
+	width: 50%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: left;
+	padding: 0 0 20px 45px;
+
+	a {
+		width: 7%;
+	}
+
+	li {
+		display: inline;
+		margin: 5px;
+	}
+}

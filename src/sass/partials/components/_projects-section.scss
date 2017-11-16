@@ -1,0 +1,76 @@
+.portfolio-page {
+	width: 100%;
+}
+
+
+.project-section {
+	display: inline-block;
+	width: 58vw;
+	height: 100vh;
+}
+
+.project-info {
+	display: inline-block;
+	height: 100%;
+	background-color: #BA183D;
+	color: #fff;
+
+	img, iframe {
+		margin: 40% 0;
+	}
+	
+	p {
+		font-size: 2em;
+		margin: 80% 0 0;
+	}
+}
+
+.project-poster {
+	width: 54%;
+	vertical-align: top;
+	overflow: hidden;
+}
+
+.project-description {
+	width: 45%;
+}
+
+.poster-project-display {
+	display: inline-block;
+	margin: 5px;
+	width: 100%;
+	height: 50%;
+}
+
+.description-project-display {
+	display: inline-block;
+	margin: 5px;
+	padding: 5%;
+}
+
+.link-to-git {
+	width: 8%;
+	
+	img {
+		margin: 5% 0;
+	}
+}
+
+.projects-list {
+	background-color: #fff;
+	vertical-align: top;
+	width: 40vw;
+
+	ul {
+		margin: 40% 15% 0;
+	}
+
+	li {
+		cursor: pointer;
+		font-size: 4em;
+
+		&:hover {
+			text-decoration: line-through;
+		}
+	}
+}

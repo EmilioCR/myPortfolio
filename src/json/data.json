@@ -1,0 +1,29 @@
+{	
+	"Default": {
+		"poster": "img/git-about-logo.png"
+	},
+	"Neurocity": {
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id explicabo ipsum, excepturi. Voluptatibus enim praesentium quos fugit, numquam alias atque, commodi voluptatum dolor, vero maiores quisquam tempora dolore, ut aut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum fugiat veritatis quis, sit quam nobis iste corporis esse reprehenderit quisquam molestiae quas impedit, ex aliquid iusto vitae eveniet neque blanditiis!",
+		"poster": "img/neurocity.jpg",
+		"link": "neurocity.com"
+	},
+	"Books": {
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id explicabo ipsum, excepturi.",
+		"poster": "https://player.vimeo.com/video/239538876?title=0&portrait=0"
+	},
+	"Bae": {
+		"description": "This was my graduation project we develop the 'Bandera Azul Ecológica' website, using the CMS Grav, in this project i build the structure of the website and i did the back-end and the configuration.",
+		"poster": "img/bae-project.png",
+		"link": "https://github.com/EmilioCR/BAE"
+	},
+	"BlackJack": {
+		"description": "This game was a Final Project in an advanced JavaScript course. I worked with my classmates and we used the MVC(Model - View - Controller), Observer Pattern, Factory Pattern, Command Pattern, Singleton Pattern, Module Pattern, Constructor Pattern and Prototype Pattern.",
+		"poster": "img/blackjack-project.png",
+		"link": "https://github.com/EmilioCR/BlackJack"
+	},
+	"VegaJewelry": {
+		"description": "This was a freelance project that is about a Jewelry, i worked with three teammates, we develop the website with the CMS Grav. To use Grav i had to learn differents languagues like Twig and YAML. I build the base of the theme and the back-end.",
+		"poster": "img/veganavascues-project.png",
+		"link": "https://github.com/EmilioCR/joyeria_grav"
+	}
+}
